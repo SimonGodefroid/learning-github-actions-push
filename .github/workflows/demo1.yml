@@ -9,7 +9,7 @@ on:
       - main # main
       - 'dev-*' # dev-new dev-this-is-new `*` means only before `/`
       - 'feat/**' # feat/new feat/new/button even if there's a slash it'll trigger
-      - 'sg/**'
+      - 'sg/**' # I had to add this because of my branch name convention...
       # developer-1 won't trigger
     paths-ignore:
       - '.github/workflows/*'
